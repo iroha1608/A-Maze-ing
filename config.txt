@@ -1,0 +1,19 @@
+# MAZEの設定ファイル
+# #で始まる行はコメントとして処理
+# WIDTH 迷路の横幅
+# HEIGHT 迷路の高さ
+# ENTRY スタート地点
+# EXIT ゴール地点(最大でWIDTH - 1, HEIGHT - 1が指定可能)
+# OUTPUT_FILE 出力ファイル
+# PERFECT 完全迷路フラグ(Falseで複数ルートになる)
+# SEED 乱数調整
+# PATTERN 42スタンプの埋め込み判定
+
+WIDTH=15
+HEIGHT=10
+ENTRY=0,0
+EXIT=14,9
+OUTPUT_FILE=maze.txt
+PERFECT=True
+SEED=0
+PATTERN=True
